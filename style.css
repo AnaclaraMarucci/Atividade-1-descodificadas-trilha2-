@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }  
+  td {
+    border: 1px solid #999;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    background-color: #fff;
+    position: relative; 
+}   
+        .group1 { background-color: #0d940d; }
+        .group2 { background-color: hwb(214 19% 9%); }  
+        .group3 { background-color: hwb(189 0% 3%); } 
+        .transition-metal { background-color: #ac6ae9; }
+        .metalloid  { background-color: #ec5fe1; }
+        .halogen { background-color: #e75f04; }
+        .noble-gas { background-color: #FFFF00; }
+        .lanthanide { background-color: #53cee4; }
+        .actinide { background-color: #DC143C; }    
+
+    .actinide-row {
+        text-align: center;
+      }
+
+.element-symbol {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.element-number {
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.element-name {
+    font-size: 8px;
+}   
+
+/* Classes para colorir os elementos */
+.group1 { background-color: #0d940d; }
+.group2 { background-color: hwb(214 19% 9%); }  
+.group3 { background-color: hwb(189 0% 3%); } 
+.transition-metal { background-color: #ac6ae9; }
+.metalloid { background-color: #ec5fe1; }
+.halogen { background-color: #e75f04; }
+.noble-gas { background-color: #FFFF00; }
+.lanthanide { background-color: #53cee4; }
+.actinide { background-color: #DC143C; }        
+
+* Centralizando as duas últimas linhas */
+table tr:nth-last-child(2),
+table tr:nth-last-child(3) {
+  text-align: center;
+}   
+.centered {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%; /* Ajuste a largura conforme necessário */
+  }     
+  
+  
